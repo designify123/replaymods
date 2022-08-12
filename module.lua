@@ -167,6 +167,7 @@ end
 
 function Module.new(Settings)
 	Settings = Settings or {}
+	print("Settings initalized, within replayMod")
 
 	local RecordingStopped = Instance.new("BindableEvent")
 	local RecordingStarted = Instance.new("BindableEvent")
