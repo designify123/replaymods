@@ -143,6 +143,7 @@ local Mouse = game:GetService("Players").LocalPlayer:GetMouse()
 local DEBUG = false --RS:IsStudio()
 
 local Module = {}
+local getgenv().ReplayMod = module
 
 local RenderStepped = RS.RenderStepped
 
